@@ -1,0 +1,157 @@
+{
+  "parameter_sets": [
+    {
+      "nominal_bits": 2048,
+      "modulus_bits": 2048,
+      "n_squared_bits": 4096,
+      "ciphertext_bytes": 512,
+      "submission_bytes": 10240,
+      "plaintext_submission_bytes": 10,
+      "client_ms_per_submission": 2103.143502000021,
+      "micro_ms": {
+        "pure": {
+          "encrypt_ms": 105.88401499990141,
+          "add_ms": 0.07557499993708916,
+          "decrypt_ms": 107.27620500001649
+        },
+        "phe": {
+          "encrypt_ms": 102.90642500003742,
+          "add_ms": 0.05061999981990084,
+          "decrypt_ms": 29.019069999776548
+        }
+      },
+      "by_N": [
+        {
+          "N": 10,
+          "correct_vs_plaintext": true,
+          "client_total_s_est": 21.03143502000021,
+          "server_accept_s": 0.009772400007932447,
+          "server_release_s": 0.011144300005980767,
+          "server_total_s": 0.020916700013913214,
+          "analyst_decrypt_s": 2.0659929000103148,
+          "end_to_end_s_est": 23.118344620024438,
+          "plaintext_baseline_ms": 0.01780000457074493,
+          "server_storage_bytes": 102400
+        },
+        {
+          "N": 100,
+          "correct_vs_plaintext": true,
+          "client_total_s_est": 210.31435020000208,
+          "server_accept_s": 0.09797470000921749,
+          "server_release_s": 0.10004280001157895,
+          "server_total_s": 0.19801750002079643,
+          "analyst_decrypt_s": 2.110600300002261,
+          "end_to_end_s_est": 212.62296800002514,
+          "plaintext_baseline_ms": 0.14679999731015414,
+          "server_storage_bytes": 1024000
+        },
+        {
+          "N": 1000,
+          "correct_vs_plaintext": true,
+          "client_total_s_est": 2103.143502000021,
+          "server_accept_s": 1.0086437999998452,
+          "server_release_s": 0.979123700002674,
+          "server_total_s": 1.9877675000025192,
+          "analyst_decrypt_s": 2.113136100000702,
+          "end_to_end_s_est": 2107.244405600024,
+          "plaintext_baseline_ms": 0.6796000016038306,
+          "server_storage_bytes": 10240000
+        },
+        {
+          "N": 10000,
+          "correct_vs_plaintext": true,
+          "client_total_s_est": 21031.435020000208,
+          "server_accept_s": 9.854535800011945,
+          "server_release_s": 9.8486613999994,
+          "server_total_s": 19.703197200011346,
+          "analyst_decrypt_s": 2.061802100011846,
+          "end_to_end_s_est": 21053.20001930023,
+          "plaintext_baseline_ms": 6.9810999993933365,
+          "server_storage_bytes": 102400000
+        }
+      ]
+    },
+    {
+      "nominal_bits": 3072,
+      "modulus_bits": 3072,
+      "n_squared_bits": 6143,
+      "ciphertext_bytes": 768,
+      "submission_bytes": 15360,
+      "plaintext_submission_bytes": 10,
+      "client_ms_per_submission": 12698.116788000043,
+      "micro_ms": {
+        "pure": {
+          "encrypt_ms": 320.3568050001195,
+          "add_ms": 0.10397000005468726,
+          "decrypt_ms": 321.70218499995826
+        },
+        "phe": {
+          "encrypt_ms": 313.8941774999694,
+          "add_ms": 0.09843500010902062,
+          "decrypt_ms": 90.48906500029261
+        }
+      },
+      "by_N": [
+        {
+          "N": 10,
+          "correct_vs_plaintext": true,
+          "client_total_s_est": 126.98116788000043,
+          "server_accept_s": 0.06118849999620579,
+          "server_release_s": 0.06361589999869466,
+          "server_total_s": 0.12480439999490045,
+          "analyst_decrypt_s": 21.630900400006794,
+          "end_to_end_s_est": 148.73687268000214,
+          "plaintext_baseline_ms": 0.06004999886499718,
+          "server_storage_bytes": 153600
+        },
+        {
+          "N": 100,
+          "correct_vs_plaintext": true,
+          "client_total_s_est": 1269.8116788000043,
+          "server_accept_s": 0.5896410999994259,
+          "server_release_s": 0.6653088000020944,
+          "server_total_s": 1.2549499000015203,
+          "analyst_decrypt_s": 21.607975399994757,
+          "end_to_end_s_est": 1292.6746041000006,
+          "plaintext_baseline_ms": 0.283800000033807,
+          "server_storage_bytes": 1536000
+        },
+        {
+          "N": 1000,
+          "correct_vs_plaintext": true,
+          "client_total_s_est": 12698.116788000043,
+          "server_accept_s": 6.264093399993726,
+          "server_release_s": 6.731328699999722,
+          "server_total_s": 12.995422099993448,
+          "analyst_decrypt_s": 21.645342400006484,
+          "end_to_end_s_est": 12732.757552500043,
+          "plaintext_baseline_ms": 2.297000006365124,
+          "server_storage_bytes": 15360000
+        },
+        {
+          "N": 10000,
+          "correct_vs_plaintext": true,
+          "client_total_s_est": 126981.16788000043,
+          "server_accept_s": 63.34255870000925,
+          "server_release_s": 30.641996000005747,
+          "server_total_s": 93.984554700015,
+          "analyst_decrypt_s": 6.5142675999959465,
+          "end_to_end_s_est": 127081.66670230044,
+          "plaintext_baseline_ms": 6.567799995536916,
+          "server_storage_bytes": 153600000
+        }
+      ]
+    }
+  ],
+  "survey": {
+    "questions": 10,
+    "k_threshold": 10,
+    "answers": "1..5",
+    "pool_size": 50
+  },
+  "notes": [
+    "2048 is benchmark-only (about 112-bit security); 3072 is the design parameter (about 128-bit).",
+    "Client encryption is timed on a pool of real submissions and scaled to N.",
+    "Pool submissions are cycled for N > pool size; correctness is checked against the same cycled answers."
+  ]
+}
